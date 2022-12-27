@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+
+
+
+
+
+
+.navbar{
+    height:3rem;
+    background: #003580;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navContainer a{
+    text-decoration: none;
+}
+
+.logo{
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+
+.navButton{
+    margin-left: 2rem;
+    padding: 0.3rem;
+    color: #003580;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif; 
+}

@@ -1,0 +1,29 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+    z-index: -1;
+}
+
+
+.featuredItem{
+    position: relative;
+    color: white; 
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.featuredItem img{
+     width: 20rem; 
+    height: 20rem; 
+    object-fit: cover;
+}
+
+.featuredTitles{
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+}
